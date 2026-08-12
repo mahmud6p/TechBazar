@@ -31,3 +31,23 @@ nav a {
     font-size: 1.2rem;
   }
 }
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+label {
+  margin-top: 10px;
+}
+button {
+  margin-top: 15px;
+  background: purple;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
