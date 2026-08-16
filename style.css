@@ -92,3 +92,19 @@ h1, h2 {
   padding: 60px;
   text-align: center;
 }
+
+
+
+.badge {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px purple;
+}
+.badge:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
