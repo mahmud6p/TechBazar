@@ -17,3 +17,25 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   }
   alert("Form submitted successfully!");
 });
+
+
+const products = [
+  "Cyber Security Toolkit",
+  "Ethical Hacking Guide",
+  "OSINT Resources",
+  "PenTest Lab Setup"
+];
+
+const list = document.getElementById("productList");
+products.forEach(item => {
+  const li = document.createElement("li");
+  li.textContent = item;
+  list.appendChild(li);
+});
+
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".fade-in").forEach(el => {
+    setTimeout(() => el.classList.add("show"), 500);
+  });
+});
