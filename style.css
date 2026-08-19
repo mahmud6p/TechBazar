@@ -117,11 +117,26 @@ h1, h2 {
   color: #eee;
 }
 
-/* style.css */
+
 .fade-in {
   opacity: 0;
   transition: opacity 1s ease-in;
 }
 .fade-in.show {
   opacity: 1;
+}
+
+/* style.css */
+.services {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px purple;
+  width: 250px;
 }
