@@ -176,3 +176,8 @@ button {
   border: none;
   border-radius: 4px;
 }
+/* style.css */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
