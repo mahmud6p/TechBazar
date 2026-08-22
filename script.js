@@ -33,9 +33,13 @@ products.forEach(item => {
   list.appendChild(li);
 });
 
-// script.js
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".fade-in").forEach(el => {
     setTimeout(() => el.classList.add("show"), 500);
   });
+});
+// script.js
+document.getElementById("themeToggle").addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
 });
